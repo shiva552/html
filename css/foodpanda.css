@@ -1,0 +1,122 @@
+*{
+	margin:0;
+	padding:0;
+}
+.navbar{
+	height: 60px;
+	width: 100%;
+	background: #ffffff;
+}
+.logo{
+	margin-left: 135px;
+    margin-top: 17px;
+    height: 29px;
+}
+.menu{
+	margin-left:334px;
+    margin-top: -34px;
+}
+.menutext{
+	color:#d9216f;
+	margin-left: 40px;
+	text-decoration: none;
+	font-size: 18px;
+}
+.bgimage1{
+	background: url('../images/fp1.png');
+	margin-top: 22px;
+	width: 100%;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.part1{
+	width: 100%;
+	height: 700px;
+}
+.subp1{
+	top: 300px;
+	position: relative;
+}
+.heading{
+	font-size: 30px;
+	color: #d9216f;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.text{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+.button{
+	color: white;
+	background:#d9216f;
+	width: 210px;
+	height: 40px;
+	border: none;
+}
+.bgimage2{
+	background: url('https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-rider-opt.jpg');
+	background-position: center;
+	/*margin-top: px;*/
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bgimage3{
+	background: url('https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-tuna-opt-scaled.jpg');
+	/*margin-top: px;*/
+	width: 100%;
+	height: 750px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bgsub{
+	position: relative;
+	top: 350px;
+}
+.textb{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+}
+.part2{
+	width: 100%;
+	height: 700px;
+	background: #d9216f;
+}
+.heading2{
+	font-size: 30px;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.text2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+.button2{
+	color: #d9216f;
+	background:white;
+	width: 210px;
+	height: 40px;
+	border: none;
+}
+.footer{
+	height: 100px;
+	width: 100%;
+}
+.logof{
+	margin-left: 87px;
+    margin-top: 24px;
+    height: 40px;
+}
+.ficon{
+	margin-left: 1190px;
+	margin-top: -76px;
+}

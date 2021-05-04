@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.first{
+			border: 3px solid red;
+			/*width: 1100px;*/
+			max-width: 1100px;
+			min-width: 400px;
+		}
+
+/* 1) initially we used only width which provides width to any object ( eg: image)  but it will work good only for large screens (laptop) as soon as we switch to smaller screen the object will get cut nd we 
+'ll have to scroll to see the entire object
+
+2) MAX WIDTH will fix the given width as the max width ie; this width will be fixed for all kinds of screen sizes
+
+3) MAX WIDTH & MIN WIDTH : Using MIN width with MAX width will also provide the minimum screen screen size for which the object will be completely shown. As soon as the screen width becomes less than 400px ( in this case) the object will get croped and scroll will appear.*/
+		img{
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<h1> Min Width & Max Width</h1>
+	<div class="first">
+		<img src="images/pay.jpg">
+		All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property All Example of background property
+	</div>
+
+</body>
+</html>

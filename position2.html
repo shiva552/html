@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+
+		#box{
+			width: 500px;
+			height: 500px;
+			border: 1px solid #000;
+			background: green;
+			/*position: relative;*/
+			/*position: absolute;*/
+			 }
+
+
+		#test{
+			width: 150px;		
+			height: 150px;
+			border: 1px solid #000;
+			background: pink;
+			position: absolute;
+			/*position: relative;*/
+			top: 2px;
+			}
+
+/*NOTE :
+1) test-relative : in this case as test is lying inside a div called box hence it will become free only inside the box div and not the entire screen (box will become parent for test)
+
+2) test-absolute : in this case the test div will become free to move in the entire screen (body becomes parent)
+
+3) box-relative , test-absolute : in this case as the box div is relative hence the absolute position for test div will only work inside the box div and not the entire screen
+
+4) box, test- absolute : same as 3*/
+			
+	</style>
+</head>
+<body>
+    <br><br><br>
+	<div id="box">
+		<div id="test">
+		</div>
+	</div>
+
+</body>
+</html>

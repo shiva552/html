@@ -1,0 +1,31 @@
+.box{
+	border: 1px solid #d8d8d8;
+    height: 274px;
+    width: 450px;
+    background: #f7f7f7;
+}
+.block1{
+	height: 19px;
+	width: 168px
+}
+.block2{
+	height: 29px;
+    width: 134px;
+    background:blue;
+    color:#ffffff; 
+}
+.img{
+	height: 38px;
+    width: 450px;
+    margin-top: 10px;
+}
+.box a{
+	text-decoration: none;
+	color: blue;
+}
+.bg{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtb4rzxlwVSEXDC64SNpGvTkV8exwtJq72dg&usqp=CAU);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:100%;
+}

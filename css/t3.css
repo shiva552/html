@@ -1,0 +1,85 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.header{
+	width:100%;
+	height:25px;
+	background: #212121;
+}
+.htext{
+	font-size:13px;
+	color:#ffffff;
+	text-align:center;
+	font-weight: 250px;
+	line-height:2;
+}
+.navbar{
+	height:80px;
+	width:100%;
+	background:#ffffff;
+}
+.nimg{
+	height: 47px;
+    width: 145px;
+    margin-left: 98px;
+    margin-top: 15px;
+}
+.menu{
+	margin-left: 617px;
+    margin-top: -45px;
+}
+.menu a{
+	color:#1f1f1f;
+	font-size: 13px;
+    margin:13px;
+    text-decoration: none;
+    font-weight:bold; 
+}
+.toptext{
+  	text-decoration: none;
+  	font-size: 18px;
+  	color:#bf4c5a;
+}
+
+.heading{
+	margin-left: 30px;
+	font-size: 28px;
+	color: black;
+	margin-left: 100px;
+}
+.box{
+	height: 436px;
+    width: 387px;
+    float: left;
+    margin: 16px;
+}
+.img{
+	width: 328px;
+    height: 300px;
+}
+.text{
+  	text-decoration: none;
+    font-size: 17px;
+    color: #737171;
+    line-height: 2;
+}
+.footer{
+	border: 1px solid #ede9dd;
+	height: 542px;
+    width: 100%;
+    margin-top: 615px;
+}
+.fdiv{
+	margin:20px;
+	width:283px;
+	height:150px;
+	float:left;
+}
+.fdivtext{
+	color: #404040;
+	line-height:2;
+	font-size: 15px;
+	text-decoration: none;
+}
